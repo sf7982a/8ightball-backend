@@ -1,4 +1,3 @@
-// /backend/db/crud.py
 from . import models
 from sqlalchemy.orm import Session
 from uuid import uuid4
@@ -18,3 +17,5 @@ def store_tags(db: Session, tags: list, account_id: str):
 def get_recent_tags(db: Session):
     recent = db.query(models.RFIDScanLog).order_by(models.RFIDScanLog.scanned_at.desc()).limit(10).all()
     return [r.rfid_tag for r in recent]
+
+    #backend/db/crud.py

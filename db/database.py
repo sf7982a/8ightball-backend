@@ -1,4 +1,4 @@
-// /backend/db/database.py
+#backend/db/database.py
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import os

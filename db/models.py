@@ -1,4 +1,4 @@
-// /backend/db/models.py
+#backend/db/models.py
 from sqlalchemy import Column, String, Integer, ForeignKey, DateTime
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base

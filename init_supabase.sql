@@ -1,4 +1,3 @@
-// /backend/init_supabase.sql
 CREATE TABLE accounts (
   id UUID PRIMARY KEY,
   name TEXT,
