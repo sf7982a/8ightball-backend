@@ -1,9 +1,8 @@
-// /backend/requirements.txt
-fastapi
-uvicorn
-sqlalchemy
-python-jose
-bcrypt
-stripe
-python-dotenv
-psycopg[binary]
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+sqlalchemy==2.0.27
+python-jose==3.3.0
+bcrypt==4.1.2
+stripe==8.8.0
+python-dotenv==1.0.1
+psycopg[binary]==3.1.18
