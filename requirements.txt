@@ -6,4 +6,4 @@ python-jose
 bcrypt
 stripe
 python-dotenv
-psycopg2-binary
+psycopg[binary]
