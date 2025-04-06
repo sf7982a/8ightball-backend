@@ -1,0 +1,9 @@
+// /backend/requirements.txt
+fastapi
+uvicorn
+sqlalchemy
+python-jose
+bcrypt
+stripe
+python-dotenv
+psycopg2-binary
