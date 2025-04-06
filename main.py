@@ -81,6 +81,3 @@ def create_checkout(user_id: str = Depends(get_current_user), db: Session = Depe
     )
     return {"url": session.url}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
